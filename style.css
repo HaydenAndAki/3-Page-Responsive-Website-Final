@@ -67,14 +67,17 @@ header a:hover{
 }
 #showcase {
 	min-height: 350px;
-	background: url("img/showcase.jpeg")no-repeat 0-400px;
+	background: url("img/showcase.jpeg")no-repeat 0 -400px;
 	text-align: center;
 	color: #ffffff;
-	font-size:45px;
+}
+#showcase{
+	font-size: 45px;
 }
 #showcase p{
 	font-size: 20px;
 }
+/*Newsletter*/
 #newsletter{
 	padding:15px;
 	color: #FFFFFF;
@@ -130,6 +133,7 @@ footer{
 	background-color: #e8491d;
 	text-align: center
 }
+/*Medica Queries*/
 @media(max-width: 768px){
 	header #branding,
 	header nav,
